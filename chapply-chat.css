@@ -1,0 +1,175 @@
+body {
+    background-color: #f6f930;
+    font-family: 'Quicksand', sans-serif;
+    color: #2f2f2f;
+}
+
+h2 {
+    font-size: 50px;
+    color: #f6f930;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+a{
+    color: white;
+    text-decoration-line: none;
+}
+.logo {
+    height: 120px;
+    padding-top: 0;
+    width: 100%;
+    background-color: #2f2f2f;
+    z-index: 1;
+    top: 0px;
+    display: inline-block;
+    position: fixed;
+    margin-bottom: 35px;
+    margin-left: -7.6px;
+}
+
+#mySalute {
+    height: 100px;
+    width: 99%;
+    margin-top: 20px;
+    padding-top: 120px;
+}
+
+#mySalute h1 {
+    color: #2f2f2f;
+    text-align: center;
+}
+
+#chat-area {
+    height: 400px;
+    width: 700px;
+    background-color: #eff6e0;
+    margin-left: 315px;
+    bottom: 0px;
+    z-index: 1;
+    position: fixed;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 3px solid rgba(245, 245, 245, 0.671);
+}
+
+#timeDisplay, #dateDisplay {
+    height: 40px;
+    width: 140px;
+    border: 10px solid white;
+    margin-left: 130px;
+    margin-top: 15px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #2f2f2f;
+    border-radius: 50px;
+    /* border-left-color: #f6f930ee; */
+}
+
+#h3Date, #h3Time {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#chatContainer {
+    height: 304px;
+    width: 700px;
+    background-color: white;
+    margin-top: 15px;
+    background-image: url('bookshelf/chapply2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+label {
+    font-size: 20px;
+    color: black;
+    margin-left: 120px;
+    padding-top: 5px;
+    display: block;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input {
+    padding: 10px;
+    margin-left: 120px;
+    width: 445px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+    text-indent: 4px;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#okayBtn, #okay2, #okay3, #okay4, #okay5, #okay6, #okay7, #okay8, #okay9, #okay10, #okay11 {
+    padding: 10px;
+    width: 100px;
+    color: white;
+    display: block;
+    background-color: #3f3f3f;
+    margin-left: 120px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 12px;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    outline: none;
+}
+
+#okayBtn:hover, #okay2:hover, #okay3:hover, #okay4:hover, #okay5:hover, #okay6:hover, #okay7:hover, #okay8:hover, #okay9:hover, #okay10:hover, #okay11:hover {
+    color: #f6f930;
+    cursor: pointer;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5 {
+    display: inline-block;
+    margin: 10px;
+    background-color: transparent;
+    padding: 10px;
+    width: 40px;
+    border: none;
+    outline: none;
+}
+
+#btn1 {
+    margin-left: 120px;
+}
+
+#submitForm {
+    padding: 10px;
+    width: 150px;
+    background-color: #2f2f2f;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    display: block;
+    font-size: 15px;
+    outline: none;
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#submitForm:hover {
+    color: #f6f930;
+}
+
+#submitConfirm {
+    padding-top: 150px;
+    height: 300px;
+    width: 660px;
+    /* border: 1px solid red; */
+    margin-top: 170px;
+    margin-left: 350px;
+    text-align: center;
+    font-size: 24px;
+}
