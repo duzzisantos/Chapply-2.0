@@ -1,3 +1,4 @@
+//This function gets the time
 function myTime() {
     // const currentDate = document.getElementById("dateDisplay");
     // const currentTime = document.getElementById("timeDisplay");
@@ -7,7 +8,7 @@ function myTime() {
     let unixDay = today.getDate();
     let day = unixDay;
     let unixMonth = today.getMonth();
-    let month = parseInt(unixMonth) + 1;
+    let month = parseInt(unixMonth) + 1; //Unix timing conventions treat months as array items. For every getMonth() value, add 1.
     let year = today.getFullYear();
     let hour = today.getHours();
     let minute = today.getMinutes();
