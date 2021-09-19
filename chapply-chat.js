@@ -1005,6 +1005,7 @@ function formSubmit() {
     submitForm.appendChild(submitLink);
     setTimeout(() => {
         myChat.appendChild(submitForm);
+        scrollToBottom();
     }, 1000);
 }
 
