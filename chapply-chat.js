@@ -1008,6 +1008,7 @@ function formSubmit() {
     }, 1000);
 }
 
+//A function that automatically scrolls the container when a new form is generated
 function scrollToBottom(){
     const myChat = document.getElementById("chatContainer");
     myChat.scrollTop = myChat.scrollHeight;
