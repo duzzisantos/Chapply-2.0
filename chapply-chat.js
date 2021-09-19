@@ -237,6 +237,7 @@ function userChat() {
         myChat.appendChild(okay);
         myChat.scrollIntoView(true);
         console.log("I waited for two seconds before executing");
+                scrollToBottom();
     }, 2000);
 
 }
@@ -276,6 +277,7 @@ function form2() {
         myChat.appendChild(okay2)
         console.log("the second function is working");
         myChat.style.overflowY = 'scroll';
+                scrollToBottom();
     }, 1000);
 }
 
@@ -317,6 +319,7 @@ function form3() {
         myChat.appendChild(okay3);
         console.log("the third function is working");
         myChat.style.overflowY = 'scroll';
+                scrollToBottom();
     }, 1000);
 
 }
@@ -365,6 +368,7 @@ function form4() {
         myChat.appendChild(okay4);
         console.log('the fourth function works');
         myChat.style.overflowY = 'scroll';
+                scrollToBottom();
     }, 1000);
 }
 
@@ -417,6 +421,7 @@ function form5() {
         myChat.appendChild(okay5);
         console.log('the fifth function works');
         myChat.style.overflowY = 'scroll';
+                scrollToBottom();
     }, 1000);
 
 }
@@ -482,6 +487,7 @@ function form6() {
         myChat.appendChild(okay6);
         console.log('the sixth function works');
         myChat.style.overflowY = 'scroll';
+                scrollToBottom();
     }, 1000);
 }
 
@@ -549,6 +555,7 @@ function form7() {
         myChat.appendChild(okay7)
         console.log('the seventh function works');
         myChat.style.overflowY = 'scroll';
+                scrollToBottom();
     }, 1000);
 }
 
@@ -622,6 +629,7 @@ function form8() {
         myChat.appendChild(okay8);
         console.log('the eighth function works');
         myChat.style.overflowY = 'scroll';
+                scrollToBottom();
     }, 1000);
 }
 
@@ -699,6 +707,7 @@ function form9() {
         myChat.appendChild(okay9)
         console.log('the ninth function works');
         myChat.style.overflowY = 'scroll';
+                scrollToBottom();
     }, 1000);
 }
 
@@ -783,6 +792,7 @@ function form10() {
         myChat.appendChild(okay10);
         console.log('the tenth function works');
         myChat.style.overflowY = 'scroll';
+                scrollToBottom();
     }, 1000);
 }
 
@@ -875,6 +885,7 @@ function form11() {
         myChat.appendChild(okay11);
         console.log('the eleventh function works');
         myChat.style.overflowY = 'scroll';
+                scrollToBottom();
     }, 1000);
 }
 
@@ -976,6 +987,7 @@ function form12() {
         myChat.appendChild(rateBtn4)
         myChat.appendChild(rateBtn5)
         console.log('the twelfth function works');
+                scrollToBottom();
     }, 1000);
 }
 
@@ -995,3 +1007,9 @@ function formSubmit() {
         myChat.appendChild(submitForm);
     }, 1000);
 }
+
+function scrollToBottom(){
+    const myChat = document.getElementById("chatContainer");
+    myChat.scrollTop = myChat.scrollHeight;
+}
+
